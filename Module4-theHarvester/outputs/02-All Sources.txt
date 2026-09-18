@@ -1,0 +1,797 @@
+┌──(kali㉿kali)-[~]
+└─$ theHarvester -d microsoft.com -l 50 -b all    
+Read proxies.yaml from /etc/theHarvester/proxies.yaml
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.10.1                                             *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: microsoft.com 
+
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process bevigil search for word: 'microsoft.com'
+Error Message: 
+[!] Missing API key for bevigil. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for Bitbucket. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process bufferoverun search for word: 'microsoft.com'
+Error Message: 
+[!] Missing API key for bufferoverun. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to perform BuiltWith search for word: 'microsoft.com'
+A Missing Key Error occurred in builtwith: 
+[!] Missing API key for BuiltWith. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Failed to process brave search for word: 'microsoft.com'
+Error Message: 
+[!] Missing API key for Brave Search. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Censys API key is missing or invalid: 
+[!] Missing API key for Censys ID and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing key error occurred in criminalip: 
+[!] Missing API key for criminalip. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in dehashed: 
+[!] Missing API key for Dehashed. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for DNSDumpster. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in fullhunt: 
+[!] Missing API key for fullhunt. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Error initializing SearchGithubCode: 
+[!] Missing API key for Github. 
+A Missing Key error occurred in github-code: 
+[!] Missing API key for Github. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for HaveIBeenPwned. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Hunter: 
+[!] Missing API key for Hunter. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Hunter How: 
+[!] Missing API key for hunterhow. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in intelx: 
+[!] Missing API key for Intelx. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Netlas: 
+[!] Missing API key for netlas. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Unexpected error occurred in Onyphe module: 
+[!] Missing API key for onyphe. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in PentestTools search: 
+[!] Missing API key for PentestTools. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in ProjectDiscovery: 
+[!] Missing API key for ProjectDiscovery. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in RocketReach: 
+[!] Missing API key for RocketReach. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for SecurityScorecard. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred Security Trails: 
+[!] Missing API key for Securitytrail. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Shodan search: 
+[!] Missing API key for Shodan. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in Tomba: 
+[!] Missing API key for Tomba Key and/or Secret. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in venacus search: 
+[!] Missing API key for Venacus. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in virustotal search: 
+[!] Missing API key for virustotal. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in whoisxml search: 
+[!] Missing API key for whoisxml. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+A Missing Key error occurred in zoomeye: 
+[!] Missing API key for zoomeye. 
+[*] Searching Baidu. 
+Chaos API error: get access token here https://cloud.projectdiscovery.io
+[*] Searching Chaos. 
+        Searching results.
+[*] Searching Certspotter. 
+[*] Searching CRTsh. 
+Fofa API error: [-700] 账号无效
+Failed to parse Fofa response: 
+[!] Missing API key for Fofa API (Invalid credentials). 
+[*] Searching Fofa. 
+[*] Searching Duckduckgo. 
+[*] Searching Hackertarget. 
+2026-09-17 06:14:01,506 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock processing for: microsoft.com
+2026-09-17 06:14:01,510 - theHarvester.discovery.hudsonrocksearch - INFO - Starting Hudson Rock search for: microsoft.com
+2026-09-17 06:14:25,774 - theHarvester.discovery.hudsonrocksearch - INFO - Domain statistics: 602369 total compromised, 16140 employees, 581626 users
+2026-09-17 06:14:25,776 - theHarvester.discovery.hudsonrocksearch - INFO - Extracted 43 hosts from employee URLs
+2026-09-17 06:14:26,780 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock search completed. Found 43 hosts, 0 IPs, 0 emails
+2026-09-17 06:14:26,781 - theHarvester.discovery.hudsonrocksearch - INFO - Hudson Rock processing completed successfully: 43 hosts, 0 IPs, 0 emails, 0 stealers
+[*] Searching Hudsonrock. 
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+LeakIX API requires authentication: "Incorrect API Key"
+[*] Searching Commoncrawl. 
+[*] Searching Leaklookup. 
+[*] Searching Leakix. 
+[*] Searching Otx. 
+[*] Searching Rapiddns. 
+[*] Searching Robtex. 
+[*] Searching Subdomaincenter. 
+[*] Searching Thc. 
+No response from ThreatCrowd API for: microsoft.com
+[*] Searching Threatcrowd. 
+[*] Searching Subdomainfinderc99. 
+[*] Searching Urlscan. 
+[*] Windvane API key not found. Using limited unauthenticated access.
+[*] API unavailable, using fallback subdomain pattern search...
+[*] Found 14 subdomains using DNS fallback
+[*] Searching Windvane. 
+[*] Searching Yahoo. 
+[*] Searching Gitlab. 
+[*] Searching Waybackarchive. 
+
+[*] ASNS found: 9
+--------------------
+AS13335
+AS133618
+AS16625
+AS206834
+AS209242
+AS20940
+AS40034
+AS46606
+AS8075
+
+[*] Interesting Urls found: 2
+--------------------
+https://azure.microsoft.com/fr-fr
+https://www.microsoft.com/de-de
+
+[*] No LinkedIn users found.
+
+
+
+[*] LinkedIn Links found: 0
+---------------------
+
+[*] IPs found: 137
+-------------------
+103.224.182.248
+103.224.182.249
+103.224.212.142
+104.215.148.63
+104.40.211.35
+104.43.195.251
+104.83.197.169
+104.83.197.213
+13.107.213.40
+13.107.213.69
+13.107.226.35
+13.107.226.40
+13.107.226.41
+13.107.226.67
+13.107.226.69
+13.107.226.70
+13.107.226.71
+13.107.246.40
+13.107.246.68
+13.107.246.69
+13.107.253.35
+13.107.253.40
+13.107.253.41
+13.107.253.67
+13.107.253.69
+13.107.253.70
+13.107.253.71
+13.77.161.179
+134.170.185.46
+134.170.188.221
+134.170.188.232
+150.171.109.100
+150.171.109.101
+150.171.109.113
+150.171.109.114
+150.171.109.115
+150.171.109.116
+150.171.109.117
+150.171.109.118
+150.171.109.119
+150.171.109.145
+150.171.109.146
+150.171.109.147
+150.171.109.148
+150.171.109.149
+150.171.109.150
+150.171.109.151
+150.171.109.152
+150.171.109.153
+150.171.109.154
+150.171.109.162
+150.171.109.163
+150.171.109.165
+150.171.109.185
+150.171.109.197
+150.171.109.213
+150.171.109.216
+150.171.109.230
+150.171.109.245
+150.171.109.33
+150.171.109.34
+150.171.109.35
+150.171.109.36
+150.171.109.37
+150.171.109.53
+150.171.109.65
+150.171.109.66
+150.171.109.68
+150.171.109.69
+150.171.109.70
+150.171.109.71
+150.171.109.72
+150.171.109.73
+150.171.109.74
+150.171.109.75
+150.171.109.77
+150.171.110.145
+150.171.110.146
+150.171.110.147
+150.171.110.151
+150.171.110.152
+150.171.110.177
+150.171.110.193
+150.171.110.194
+150.171.110.2
+150.171.110.209
+150.171.110.21
+150.171.110.211
+150.171.110.36
+150.171.110.4
+150.171.110.5
+150.171.110.53
+150.171.110.56
+150.171.73.13
+172.64.146.215
+185.53.179.128
+185.53.179.136
+185.53.179.200
+191.239.213.197
+198.202.211.1
+199.191.50.11
+199.191.50.184
+199.191.50.190
+199.191.50.73
+20.112.250.133
+20.190.159.23
+20.190.177.146
+20.231.239.246
+20.70.246.20
+208.91.196.145
+208.91.196.152
+208.91.196.95
+208.91.197.13
+208.91.197.130
+208.91.197.132
+208.91.197.195
+208.91.197.23
+208.91.197.27
+208.91.197.39
+208.91.197.46
+23.100.122.175
+23.50.85.217
+23.96.52.53
+2600:1407:7800:5a8::439b
+2603:1026:3000:d0::b
+2603:1027:1:d0::3
+2a06:98c1:3109::6812:2929
+40.112.72.205
+40.113.200.201
+40.126.31.69
+40.126.32.136
+40.76.4.15
+40.90.65.122
+40.90.65.199
+65.55.186.235
+74.220.199.6
+95.100.102.101
+
+[*] Emails found: 3
+----------------------
+dotnet-docker-bot@microsoft.com
+opencode@microsoft.com
+secure@microsoft.com
+
+[*] No people found.
+
+[*] Hosts found: 9942
+---------------------
+*.api.cfp.microsoft.com
+*.bigcatalog-ppe.commerce.microsoft.com
+*.bizextsvc-int.microsoft.com
+*.canary.mfavalidation.auth.microsoft.com
+*.canary.testmymfa.auth.microsoft.com
+*.ckms.prod.communication.microsoft.com
+*.cloudcare-aks-ppe.caresupplychain.microsoft.com
+*.cloudcare-aks-prd.caresupplychain.microsoft.com
+*.console-m365d.microsoft.com
+*.copilotstudio.microsoft.com
+*.dl.adu.microsoft.com
+*.emailinbg.ppe.communication.microsoft.com
+*.events.prod.communication.microsoft.com
+*.frontdoor.bigcatalog-ppe.commerce.microsoft.com
+*.preprod.api.bap.microsoft.com
+*.prod.api.copilotforfinance.microsoft.com
+*.publisher-aircapi.1pp.microsoft.com
+*.rooms.ppe.communication.microsoft.com
+*.test.api.bap.microsoft.com
+*.tip1.api.bap.microsoft.com
+*.tip2.api.bap.microsoft.com
+000dhy1sb2fe2b.fareast.corp.microsoft.com
+002-ause.apac.prd.api.cos.mediapaas.infra.teams.microsoft.com
+002-ause.apac.prd.api.mediapaas.infra.teams.microsoft.com
+01-ukwe.emea.prd.api.mediapaas.infra.teams.microsoft.com
+02-scus.noam.prd.api.mediapaas.infra.teams.microsoft.com
+04bb462a-3730-48e5-84db-56f42351ec71.microsoft.com
+05c50d84-b811-498b-b2d0-d720f443091c.microsoft.com
+064-smtp-in-2a.microsoft.com
+064-smtp-in-2a.microsoft.com:157.54.41.37
+0688854f-d5d9-4885-8447-8599aa383f4e.microsoft.com
+08dbb1e2-14d0-4668-a751-5e89b2ecdc61.microsoft.com
+0c1bc83d-d1fe-445b-8346-09c567e07385.microsoft.com
+10ceb6c5-81ac-4919-a0b1-9ad2707b651b.rdbroker-g-us-r1.wvd.microsoft.com
+11b59461-755a-4882-8ba9-58e2e788d644.microsoft.com
+140.82.8.34.microsoft.com
+149.28.32.9.microsoft.com
+14cd4cb2-348e-4864-8cd9-de45179cc5d2.microsoft.com
+17e3e2bf-2dd9-4ed3-8b46-bed1c6112784.microsoft.com
+1d.au.download.windowsupdate.com.delivery.microsoft.com
+1df037eb-e2f8-4337-9ecb-1e61a37c1c20.microsoft.com
+1eec5887-103c-48d0-a492-c2a9945d4845.microsoft.com
+1es-mcp-gallery.microsoft.com
+1es-mcp-gallery.microsoft.com:150.171.109.71
+1esbot-test.microsoft.com
+1esbot.microsoft.com
+1eslivesecrets.microsoft.com
+1pafdtest.compliancedrive.microsoft.com
+1ponlinestore.microsoft.com
+1pubng-dev.corp.microsoft.com
+1pubng-ppe.corp.microsoft.com
+1pubng-prod.corp.microsoft.com
+1s.microsoft.com
+1s.microsoft.com:150.171.109.73
+2015hrgc.microsoft.com
+2090caf3-e02d-4034-9a9a-073b728d2530.microsoft.com
+20f1a64e-7b16-467a-85e4-94c13b5a1caf.microsoft.com
+23ae2138-158f-436a-9f48-d8579a955912.microsoft.com
+2Fblogs.microsoft.com
+2Fdocs.microsoft.com
+2Fdownload.microsoft.com
+2Fmsdn.microsoft.com
+2Fnews.microsoft.com
+2d528172-1f8c-4d25-9bcc-6512de3228a0.microsoft.com
+2eb453ce-914f-4a57-b35a-ecb66f89681e.microsoft.com
+30e443aa-ef84-40c0-9123-7e0106aeb267.microsoft.com
+35bbaf55-3ce4-4bca-85b5-833720793f03.microsoft.com
+3d-avatar-diffusion.microsoft.com
+3d-avatar-diffusion.microsoft.com:23.101.10.141
+3p-dataconnectors.microsoft.com
+3p-dataconnectors.microsoft.com:20.118.40.7
+3p.microsoft.com
+3papiprovider.microsoft.com
+3pc.microsoft.com
+3pc.microsoft.com:150.171.109.77
+3pcapi.microsoft.com
+3pcapi.microsoft.com:150.171.110.193
+3pconsole.microsoft.com
+3psecure-ppe.redmond.corp.microsoft.com
+3psecureppe.microsoft.com
+3rdpartycode.microsoft.com
+3rdpartycode.microsoft.com:150.171.109.74
+3rdpartydisclosures.microsoft.com
+3rdpartysource.microsoft.com
+3rdpartysource.microsoft.com:150.171.110.193
+3scopilotodinml-service-prod.microsoft.com
+3scopilotodinml-service-sdf.microsoft.com
+3scopilotodinml.microsoft.com
+3sdash.microsoft.com
+3sdash.microsoft.com:4.152.194.249
+3sdebug.microsoft.com
+44b14914-cc91-4323-8622-6ebf68374dc2.microsoft.com
+45.77.221.118.microsoft.com
+4586b94d-71a9-4d71-b813-fbefd301a523.microsoft.com
+485e215e-24eb-428b-ace8-b018bf15eb22.microsoft.com
+4aa00308-8dab-48bb-a8f8-700ddd4ae037.microsoft.com
+4afrikaskillslab.microsoft.com
+52-114-124-157.relay.teams.microsoft.com
+52-114-124-192.relay.teams.microsoft.com
+52-114-124-220.relay.teams.microsoft.com
+52-114-124-28.relay.teams.microsoft.com
+52-114-125-70.relay.teams.microsoft.com
+52-114-189-156.relay.teams.microsoft.com
+52-114-220-170.relay.teams.microsoft.com
+52-114-221-131.relay.teams.microsoft.com
+52-114-221-30.relay.teams.microsoft.com
+52-114-222-122.relay.teams.microsoft.com
+52-114-222-23.relay.teams.microsoft.com
+52-114-223-137.relay.teams.microsoft.com
+52-114-60-109.relay.teams.microsoft.com
+52-114-62-16e.relay.teams.microsoft.com
+52-114-62-69.relay.teams.microsoft.com
+530d3e62-6942-40f9-a229-e9a9e6dc4a40.microsoft.com
+54e85a69-e3cc-4ac0-978e-b31e54bd48d9.microsoft.com
+578f6c58-e040-44ba-bc29-1077d31328ce.microsoft.com
+587749bf-486f-40cc-9f39-692cb78fc4a7.microsoft.com
+608055a3-daaf-41f7-a2e8-43b69d9d7d28.microsoft.com
+638faf3c-f7f7-4ab8-8675-9d170f6952ac.microsoft.com
+6d68efc9-fb4f-47d2-a3da-2b36ecae7c56.microsoft.com
+7025a0fb-d39a-4485-9099-b6969af2154f.microsoft.com
+712ccca1-fc77-496f-976b-edfd1a981c22.microsoft.com
+77acfcbc-e9ad-41de-b119-17f3dcb8f0c5.microsoft.com
+790f2e24-1ac7-4174-97c2-ff76334c6b14.microsoft.com
+7a093bc4-8973-4e57-a42e-6aedb76ac215.microsoft.com
+7cd6260f-da76-415d-8d1d-79964ff6dddf.microsoft.com
+8057.microsoft.com
+8057.microsoft.com:206.126.236.17
+8075.microsoft.com
+8075.microsoft.com:206.223.116.17
+83a3654c-13fb-4fd1-ba40-d7feb061fae5.microsoft.com
+8480.4922.9808.c33f8dd869a0.microsoft.com
+8481478e-5840-45e5-b5c6-9b25664100d4.microsoft.com
+861cda8e-16d0-4df9-800c-47f3bc302440.microsoft.com
+88f1f0be-662d-486d-9942-685f5539a19d.microsoft.com
+90a024ae-d9e4-48ff-b170-59e5b6283cd8.microsoft.com
+95610bda-3c89-4224-9e67-259e6df38a56.microsoft.com
+999dtk5l50fe11.exchange.corp.microsoft.com
+9a22d1fb-719d-477b-a6da-490c8a21f6d1.microsoft.com
+9a82a60a-cc39-469a-810d-2ce554f7213e.microsoft.com
+Docs.microsoft.com
+a-asse.auth.prod.communication.microsoft.com
+a-auce.auth.prod.communication.microsoft.com
+a-auea.auth.prod.communication.microsoft.com
+a-euno.auth.prod.communication.microsoft.com
+a-euwe.auth.prod.communication.microsoft.com
+a-usce.auth.prod.communication.microsoft.com
+a-usea.auth.prod.communication.microsoft.com
+a-uswe.auth.prod.communication.microsoft.com
+a.officeint.microsoft.com.microsoft.com
+a.officeint.microsoft.com.microsoft.com:207.68.130.204
+a.switzerlandwest.telephony.convai.speech.microsoft.com
+a00000000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a00000000000000000000000000000000000000000000000000000000000002.ms.a.microsoft.com:23.219.36.139
+a00000000000000000000000000000000000000000000000000000000000003.ms.a.microsoft.com
+a00000000000000000000000000000000000000000000000000000000000003.ms.a.microsoft.com:23.219.36.137
+a0000000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.143
+a00000000000000000000000000000000000000000000000000000000000010.ms.a.microsoft.com:23.219.36.144
+a000000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.143
+a00000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a00000000000000000000000000000000000000000000000000000000001337.ms.a.microsoft.com:23.219.36.135
+a0000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a000000000000000000000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.143
+a0000000000000000000000000000000000000001.ms.a.microsoft.com
+a0000000000000000000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a0000000000000000000000001.ms.a.microsoft.com:23.219.36.140
+a0000000000000000000000002.ms.a.microsoft.com:23.219.36.139
+a000000000000000000001.ms.a.microsoft.com:23.219.36.143
+a000000000000000001.ms.a.microsoft.com:23.219.36.143
+a000000000000000002.ms.a.microsoft.com:23.219.36.136
+a000000000000000003.ms.a.microsoft.com:23.219.36.134
+a00000000001.ms.a.microsoft.com:23.219.36.143
+a0000000001.ms.a.microsoft.com:23.219.36.143
+a000001.ms.a.microsoft.com
+a000001.ms.a.microsoft.com:23.219.36.143
+a00001.ms.a.microsoft.com:23.219.36.143
+a0001.ms.a.microsoft.com:23.219.36.140
+a001.ms.a.microsoft.com:23.219.36.143
+a01.ms.a.microsoft.com:23.219.36.140
+a1.ms.a.microsoft.com:23.219.36.140
+a10.ms.a.microsoft.com:23.219.36.132
+a100.ms.a.microsoft.com
+a100.ms.a.microsoft.com:23.219.36.132
+a1000.ms.a.microsoft.com:23.219.36.141
+a101.ms.a.microsoft.com
+a101.ms.a.microsoft.com:23.219.36.133
+a102.ms.a.microsoft.com
+a102.ms.a.microsoft.com:23.219.36.134
+a103.ms.a.microsoft.com:23.219.36.135
+a104.ms.a.microsoft.com
+a104.ms.a.microsoft.com:23.219.36.138
+a105.ms.a.microsoft.com:23.219.36.145
+a106.ms.a.microsoft.com
+a1060.ms.a.microsoft.com
+a110.ms.a.microsoft.com
+a1100.ms.a.microsoft.com
+a1104.ms.a.microsoft.com
+a111.ms.a.microsoft.com
+a112.ms.a.microsoft.com
+a113.ms.a.microsoft.com
+a114.ms.a.microsoft.com
+a115.ms.a.microsoft.com
+a116.ms.a.microsoft.com
+a117.ms.a.microsoft.com
+a118.ms.a.microsoft.com
+a119.ms.a.microsoft.com
+a122.ms.a.microsoft.com
+a123.ms.a.microsoft.com
+a124.ms.a.microsoft.com
+a125.ms.a.microsoft.com
+a126.ms.a.microsoft.com
+a127.ms.a.microsoft.com
+a128.ms.a.microsoft.com
+a130.ms.a.microsoft.com
+a131.ms.a.microsoft.com
+a132.ms.a.microsoft.com
+a133.ms.a.microsoft.com
+a134.ms.a.microsoft.com
+a1352.ms.a.microsoft.com
+a136.ms.a.microsoft.com
+a137.ms.a.microsoft.com
+a138.ms.a.microsoft.com
+a139.ms.a.microsoft.com
+a1396.ms.a.microsoft.com
+a141.ms.a.microsoft.com
+a142.ms.a.microsoft.com
+a143.ms.a.microsoft.com
+a144.ms.a.microsoft.com
+a145.ms.a.microsoft.com
+a147.ms.a.microsoft.com
+a148.ms.a.microsoft.com
+a149.ms.a.microsoft.com
+a1572.ms.a.microsoft.com
+a1576.ms.a.microsoft.com
+a1796.ms.a.microsoft.com
+a1808.ms.a.microsoft.com
+a192.ms.a.microsoft.com
+a2020.ms.a.microsoft.com
+a244.ms.a.microsoft.com
+a260.ms.a.microsoft.com
+a458522c-0359-4e92-9887-5fee1607c0c7.microsoft.com
+a476.ms.a.microsoft.com
+a4ocindaf.a4opacketcore.microsoft.com
+a4odevaf.a4opacketcore.microsoft.com
+a4opacketcore.microsoft.com
+a4opocaf.a4opacketcore.microsoft.com
+a4oprodaf.a4opacketcore.microsoft.com
+a510.ms.a.microsoft.com
+a592.ms.a.microsoft.com
+a804.ms.a.microsoft.com
+a860.ms.a.microsoft.com
+a9312897-77eb-4e93-a497-e263e7912313.microsoft.com
+aaadmincentereligibilityfirstpartyppe.microsoft.com
+aaauat-wlan-aaa.corp.microsoft.com
+aad-app-riopsbidl-prod-ame-001.microsoft.com
+aad-app-riopsbidl-prod-pme-001.microsoft.com
+aad-client-cmsp.cmspconsumer.microsoft.com
+aad-client.npe.cmspconsumer.microsoft.com
+aad.npe.oacms.ccp.microsoft.com
+aadbridge.mcapiaadbridge-aircapi.commerce.microsoft.com
+aadbridge.mcapiaadbridge-int.commerce.microsoft.com
+aadbridge.mcapiaadbridge.commerce.microsoft.com
+aadfirstpartyapp.client-gf.cls.microsoft.com
+aadvisor-ppe.microsoft.com
+aadvisor.microsoft.com
+aanderhutest3.smltenant.microsoft.com
+abilitysummit.microsoft.com
+about-build.ads.microsoft.com
+about-deploy.ads.microsoft.com
+about-dev.ads.microsoft.com
+about-test-deploy.ads.microsoft.com
+about-test.ads.microsoft.com
+about-uat-deploy.ads.microsoft.com
+about-uat.ads.microsoft.com
+about.ads.microsoft.com
+abs.corp.microsoft.com
+abstract.microsoft.com
+abtesting.microsoft.com
+abts-sentiment-drivers.capdev.microsoft.com
+ac.discovery.cloudcatalog.microsoft.com
+ac.frontdoor.cloudcatalog.microsoft.com
+ac2.microsoft.com
+ac2.microsoft.com:65.55.157.94
+aca14852-f12a-47a7-8125-c2a36cda965b.microsoft.com
+academic.microsoft.com
+academicverification.microsoft.com
+academy.bingads.microsoft.com
+academy.microsoft.com
+academycourses.bingads.microsoft.com
+academymobile.microsoft.com
+academymobile.microsoft.com:131.107.97.10
+acc-geneva-synth-test.microsoft.com
+access.cloudmine.microsoft.com
+accesscontrol.ex.azure.microsoft.com
+accesscontrol.ex.azure.microsoft.com:65.55.54.20
+accessreview-prod-dm3.microsoft.com
+accessreview-prod-mw1.microsoft.com
+accont.microsoft.com
+accoun.microsoft.com
+account-mgmt-exp.microsoft.com
+account.microsoft.com
+accountants.microsoft.com
+accountants.microsoft.com:207.68.165.81
+accountemail.microsoft.com
+accountenrollmentservice.microsoft.com
+accountguard.microsoft.com
+accounthub-dev.microsoft.com
+accounthub-uat.microsoft.com
+accounthub.microsoft.com
+accountinfo.account.microsoft.com
+accounting.microsoft.com
+accounting.microsoft.com:207.68.165.50
+accountmail.microsoft.com
+accountprotection.microsoft.com
+accounts-eligibility-int.microsoft.com
+accounts-eligibility.microsoft.com
+accounts.bkgprocessing.bn2.cp.microsoft.com:40.77.224.215
+accounts.bkgprocessing.cy2.cp.microsoft.com:40.77.232.79
+accounts.bn2.cp.microsoft.com:40.77.228.40
+accounts.co1.cp.microsoft.com:65.55.7.79
+accounts.cy2.cp.microsoft.com:40.77.232.69
+accounts.dm2.cp.microsoft.com:134.170.48.205
+accounts.flighting.bn2.cp.microsoft.com:40.77.228.162
+accounts.flighting.cy2.cp.microsoft.com:40.77.232.17
+accounts.microsoft.com
+accountservices.microsoft.com
+accountupdater.paymentsinstrument.commerce.microsoft.com
+accout.microsoft.com
+accoutn.microsoft.com
+accumendev.microsoft.com
+accuont.microsoft.com
+ace.dnsdemo.aifs-test.microsoft.com
+aceninjahubchat-ppe.microsoft.com
+aceninjahubchat.microsoft.com
+aceskills.microsoft.com
+aceskillsuat.microsoft.com
+acg-maestro.corp.microsoft.com
+acnqcpc-dev.corp.microsoft.com
+acnqcpc-test.corp.microsoft.com
+acnqcpc-uat.corp.microsoft.com
+acnqcpc.corp.microsoft.com
+acount.microsoft.com
+acp.ingestion.cloudcatalog.microsoft.com
+acs-domain-checker.microsoft.com
+acs-repo.corp.microsoft.com
+acs.cbg-voice.microsoft.com
+acs.microsoft.com
+action360-int.microsoft.com
+action360-test.microsoft.com
+action360.microsoft.com
+actioncenter-integration-cdn.microsoft.com
+actionfeaturestore-int.microsoft.com
+actionfeaturestore.microsoft.com
+actions-sechub.microsoft.com
+activate.microsoft.com
+activateuat.microsoft.com
+activedirectory-coreidentity.corp.microsoft.com
+activelearning.cloud.microsoft.com
+activelearning.int.cloud.microsoft.com
+activelearning.ppe.cloud.microsoft.com
+activex.microsoft.com
+activex.microsoft.com:207.46.196.108
+activity-store-ppe.microsoft.com
+activity-store.microsoft.com
+activity.microsoft.com
+acw.view.api.account.microsoft.com
+ad1c90fd-0904-465f-aacc-34eaa27e7ede.microsoft.com
+adagent.red.ae.microsoft.com
+adaptivecards.microsoft.com
+adcenter.microsoft.com
+adcenterapi-ppe.microsoft.com
+adcenterapi-ppe.microsoft.com:207.46.202.21
+adcenterapi.adintelligence.microsoft.com
+adcenterapi.adintelligence.microsoft.com:207.46.202.96
+adcenterapi.microsoft.com
+adcenterapidownload-ppe.microsoft.com
+adcenterapidownload-ppe.microsoft.com:207.46.119.181
+adcenterapidownload.microsoft.com
+adcenterchallenge.microsoft.com
+adcenterchallenge.microsoft.com:207.46.119.160
+adcenterhelp-si.microsoft.com
+adcenterhelp-si.microsoft.com:207.46.120.189
+adcenterhelp.microsoft.com
+addressvalidationservice.microsoft.com
+adfs.c3e.microsoft.com
+adfs.catcrm-stg.microsoft.com
+adfs.catcrm-stg.microsoft.com:157.56.138.45
+adfs.kirkland.azurestack.corp.microsoft.com
+adfshelp.microsoft.com
+adfshelpppe.microsoft.com
+adfsq.bellevue.azurestack.corp.microsoft.com
+adgallery.microsoft.com
+adinquiry.adcenter.microsoft.com
+adinquiry.advertiser-si.adcenter.microsoft.com
+adinquiry.advertiser-si.adcenter.microsoft.com:65.55.130.62
+adinquiry.bcp.bingads.microsoft.com
+adinquiry.bcp.bingads.microsoft.com:65.52.105.117
+adinquiry.beta.si.bingads.microsoft.com
+adinquiry.beta.si.bingads.microsoft.com:207.46.119.62
+adinquiry.bingads.microsoft.com
+adinquiry.ch1b.bingads.microsoft.com
+adinquiry.co4.bingads.microsoft.com
+adinquiry.si.bingads.microsoft.com
+adinsight.ads-int.microsoft.com
+adinsight.ads.microsoft.com
+adinsight.api.ads.microsoft.com
+adinsight.api.bingads.microsoft.com
+adinsight.api.ppe.ads.microsoft.com
+adinsight.api.sanbox.bingads.microsoft.com
+adinsight.api.sandbox.ads.microsoft.com
+adinsight.api.sandbox.bingads.microsoft.com
+adinsight.api.si.ads.microsoft.com
+adinsight.api.si.bingads.microsoft.com
+adinsight.bcp.api.bingads.microsoft.com
+adinsight.bcp.api.bingads.microsoft.com:131.253.14.110
+adinsight.beta.ads-int.microsoft.com
+adinsight.beta.ads.microsoft.com
+adinsight.beta.bingads.microsoft.com
+adinsight.bingads.microsoft.com
+adinsight.si.bingads.microsoft.com
+adintelligence.pace2.adcenter.microsoft.com
+adintelligence.pace2.adcenter.microsoft.com:207.46.22.160
+adintelligence.pace3ldc2.adcenter.microsoft.com
+adintelligence.pace3ldc2.adcenter.microsoft.com:207.46.22.161
+adlab.microsoft.com
+adlab.microsoft.com:157.55.150.71
+adlibrary-si.corp.microsoft.com
+adlibrary.ads.microsoft.com
+adlibrary.api.bingads.microsoft.com
+admin-1i.microsoft.com
+admin-calm-int.corp.microsoft.com
+admin-ignite.microsoft.com
+admin-sdf.microsoft.com
+admin.aiskillsnavigator.microsoft.com
+admin.askwindowscoco.microsoft.com
+admin.businessplatform.microsoft.com
+admin.communityleader.microsoft.com
+admin.dev.aiskillsnavigator.microsoft.com
+admin.exchange.microsoft.com
+admin.iris.api.microsoft.com
+admin.microsoft.com
+admin.order.commerce.microsoft.com
+admin.perf.order.commerce.microsoft.com
+admin.ppe.aiskillsnavigator.microsoft.com
+admin.purchase.commerce.microsoft.com
+admin.rtest.ex1.dev.us.daas.microsoft.com
+adminhosting.kirkland.azurestack.corp.microsoft.com
+adminhosting.sre.azurestack.corp.microsoft.com
+adminmanagement.kirkland.azurestack.corp.microsoft.com
+adminmanagement.sre.azurestack.corp.microsoft.com
+adminmsvacation.corp.microsoft.com
+adminmsvacation.microsoft.com
+adminportal.kirkland.azurestack.corp.microsoft.com
+adminportal.sre.azurestack.corp.microsoft.com
+adminppe.communityleader.microsoft.com
+adminvault.kirkland.azurestack.corp.microsoft.com
+adminvault.redmond.ext-b42tca3.azs.selfhost.corp.microsoft.com
+adminvault.redmond.ext-n25r0309.azs.selfhost.corp.microsoft.com
+adminvault.redmond.ext-n35r0903.azs.selfhost.corp.microsoft.com
+adminvault.redmond.ext-n42r1605.azs.selfhost.corp.microsoft.com
+adminvault.redmond.ext-s45r1604.azs.selfhost.corp.microsoft.com
+adminvault.sre.azurestack.corp.microsoft.com
+adminwaepple.microsoft.com
+ado-hygiene.microsoft.com
+adobedev.microsoft.com
+adobehfx.microsoft.com
