@@ -15,10 +15,6 @@ Below are the email addresses discovered during the passive reconnaissance phase
 | No. | Harvested Email Address | Source/Transform Used |
 |-----|-------------------------|-----------------------|
 | 1 | info@networkwalks.com | Domain to Email / WHOIS |
-| 2 | support@networkwalks.com | Domain to Email / Search |
-| 3 | [Add any other emails you found] | [Transform Used] |
-| 4 | [Add any other emails you found] | [Transform Used] |
-| 5 | [Add any other emails you found] | [Transform Used] |
 
 *(Note: If Maltego CE limits the number of results, document whatever results were returned by the free tier).*
 
