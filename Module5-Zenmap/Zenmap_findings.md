@@ -19,3 +19,36 @@ ipconfig
 getmac
 :: OR
 ipconfig /all
+```
+
+# Zenmap Target Input
+```
+192.168.x.0/24  # (Replace with your actual subnet)
+# Profile: Ping Scan
+```
+
+### 📊 Scan Results Summary
+
+#### Task 4: How many hosts are live in your subnet?
+**Answer:** 1 host is live (including the local testing machine).
+
+#### Task 5: What are the IP addresses of the live hosts?
+| No. | Live Host IP Address |
+| :--- | :--- |
+| 1 | `192.168.204.1` |
+
+#### Task 6: What are the MAC addresses of the live hosts?
+| No. | MAC Address | Device/Notes |
+| :--- | :--- | :--- |
+| 1 | `78-BE-81-05-88-92` | Local Machine (Verified via `getmac`) |
+
+> *Note: Full raw outputs are available in the `outputs/` directory of this module.*
+
+---
+
+### 🎯 Attacker Perspective (Why this matters)
+While footprinting (Phases 1-4) is passive, network scanning is the first step of **active reconnaissance**. 
+
+* **Discovering live hosts** allows an attacker to map the internal attack surface.
+* **Identifying MAC addresses** can reveal device manufacturers (via OUI lookup), helping an attacker identify IoT devices, printers, or specific OS types to target.
+* **Regular internal scanning** by defenders is critical to detect rogue devices, unauthorized access points, or compromised machines communicating on the network.
